@@ -14,7 +14,6 @@ target("SB-Test-Scene")
     add_deps("EngineSquared")
 
     add_includedirs("src/")
-    add_includedirs("lib/EngineSquared/src")
 
     add_packages("entt", "vulkansdk", "glfw", "glm", "raylib")
 
